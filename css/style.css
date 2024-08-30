@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 30px;
+}
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(83, 161, 252);
+    padding:20px 20px;
+    max-width: 400px;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+form input{
+    font-family: inherit;
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.search i{
+    color: #3e3b3b;
+    border: 2px solid #3e3b3b;
+    padding: 5px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search input::-webkit-search-cancel-button{
+    appearance: none;
+}
+ul.list{
+    /* background-color: #3e3b3b; */
+    margin-bottom: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul.list li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #3e3b3b;
+}
+ul.list li i{
+    cursor: pointer;
+}
+
+.add-new{
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    /* margin-top: 20px; */
+}
+.add-new input{
+    flex: 80;
+}
+.add-new button{
+    flex: 20;
+    background-color: #297d0a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.others{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(83, 161, 252);
+    padding: 20px;
+    color: #fff;
+    border-radius: 30px;
+}
+.others .tasksCounter{
+    flex: 80;
+}
+.others button{
+    background-color: #f13f3f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 20;
+    padding: 10px;
+}
+.hide{
+    display: none !important;
+}
+.addForm{
+    margin-top: 20px;
+}

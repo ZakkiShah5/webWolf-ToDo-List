@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebWolf-ToDo-List</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/6a561972d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="mainTitle"><h1>WebWolf-ToDo-List</h1></div>
+            <p>Manange and search your pending tasks in clicks!</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form class="searchNList">
+                <div class="search">
+                    <input type="search" name="buscar" placeholder="Search your tasks" >
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </form>  
+                
+             
+            <form class="addForm">
+                <div>
+                    <ul class="list">
+                        <li>
+                            <span>Editing</span>
+                            <i class="fa-solid fa-trash"></i>
+                        </li>
+                        <li>
+                            <span>Vloging</span>
+                            <i class="fa-solid fa-trash"></i>
+                        </li>
+                        <li>
+                            <span>Coding</span>
+                            <i class="fa-solid fa-trash"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="add-new">
+                <input type="text" required name="addNew" placeholder="Add your new task!">
+                <button type="submit">Add</button>
+                </div>
+            </form>  
+                
+            
+            <div class="container">
+                <div class="others">
+                    <div class="tasksCounter">You have 3 pending tasks</div>
+                    <button class="clearAll">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
